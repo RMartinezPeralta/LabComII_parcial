@@ -1,0 +1,62 @@
+@media screen {
+    #section-main-image h1 {
+        font-size: 40px;
+        text-align: center;
+        align-items: center;
+      }
+      
+      #section-main-image h2 {
+        color: white;
+        text-shadow: 2px 2px 5px #000;
+        text-align: center;
+        align-items: center;
+        font-size: 20px;
+        margin: 40px 0px 20px;
+      }
+
+      nav ul {
+        display: grid;
+        grid-template-columns: auto auto;
+      }
+
+      nav ul li a {
+        font-weight: bolder;
+        font-size: 12px;
+      }
+      
+      #section-main-image {
+        height: 60vh;
+      }
+
+      .product-grid {
+          display: grid;
+          grid-template-columns: auto;
+      }
+      #footer-contact {
+        background-color: #ab9d81;
+        color: black;
+        display: grid;
+        grid-template-columns: auto;
+        align-items: center;
+        justify-content: center;
+      }
+      #footer-contact h2 {
+          font-size: 16px;
+          text-align: center;
+          justify-content: center;
+      }
+      .contact-form form {
+        margin-left: 5px;
+        text-align: right;
+      }
+
+      .contact-data {
+        width: 100%;
+      }
+
+      .contact-data li {
+
+          list-style-type: square;
+          font-size: 11px;
+      }
+}
