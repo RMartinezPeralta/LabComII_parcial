@@ -123,8 +123,11 @@ footer {
 
 #footer-contact .contact-data {
   display: flex;
-  display: flex;
   justify-content: space-around;
+}
+
+#footer-contact .contact-data .contact-info {
+  text-align: left;
 }
 
 #footer-contact .container {
@@ -151,6 +154,5 @@ footer {
   margin-top: 15px;
   color: #58462c;
   padding: 2px 30px;
-  
 }
 
